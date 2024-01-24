@@ -3,12 +3,14 @@ A tiny language model that claims to be able to distinguish Shakespearean texts 
 
 The model should give 83 percent accuracy. But that's not really either... need to work on expanding the data to get a more accurate model.
 
+
+
 ## how to use
 You need Python installed on your computer first
 
 Install the following packages (use the command line):
 
-pip install scikit-learn pandas
+`pip install scikit-learn pandas`
 
 
 ### Download the following files:
