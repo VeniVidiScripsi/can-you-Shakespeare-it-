@@ -7,14 +7,21 @@ The model should give 83 percent accuracy. But that's not really either... need 
 You need Python installed on your computer first
 
 Install the following packages (use the command line):
+
 pip install scikit-learn pandas
+
 
 ### Download the following files:
 
+
 Load_the_saved_model2.py
+
 shakespeare_model.joblib
+
 tfidf_vectorizer.joblib
+
 run.bat
+
 Change the path of the "Load_the_saved_model2.py" file inside run.bat to its current location on your system.
 
 Run the file: run.bat
