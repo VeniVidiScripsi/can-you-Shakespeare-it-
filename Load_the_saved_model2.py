@@ -1,6 +1,7 @@
 import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
 
+
 def load_model_and_vectorizer():
     # Load the saved model
     loaded_model = joblib.load('shakespeare_model.joblib')
@@ -9,6 +10,7 @@ def load_model_and_vectorizer():
     vectorizer = joblib.load('tfidf_vectorizer.joblib')
 
     return loaded_model, vectorizer
+
 
 def classify_input_text(input_text, model, vectorizer):
     # Transform the input text using the loaded vectorizer
@@ -26,6 +28,7 @@ def classify_input_text(input_text, model, vectorizer):
     print("Decision function scores:", decision_scores)
     print("\n" + "="*50 + "\n")  # Separator for better readability
 
+
 # Main interactive loop
 if __name__ == "__main__":
     # Load the model and vectorizer
@@ -42,3 +45,8 @@ if __name__ == "__main__":
 
         # Classify the input text
         classify_input_text(user_input, model, vectorizer)
+
+
+
+
+
