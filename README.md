@@ -1,4 +1,4 @@
-# can you Shakespeare it?
+ # can you Shakespeare it?
 A tiny language model that claims to be able to distinguish Shakespearean texts from others. Trained in Python with dedicated libraries such as pandas.
 
 The model should give 83 percent accuracy. But that's not really either... need to work on expanding the data to get a more accurate model.
