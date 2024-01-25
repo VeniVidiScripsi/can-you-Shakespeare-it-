@@ -16,18 +16,18 @@ Install the following packages (use the command line):
 ### Download the following files:
 
 
-Load_the_saved_model2.py
+`Load_the_saved_model2.py`
 
-shakespeare_model.joblib
+`shakespeare_model.joblib`
 
-tfidf_vectorizer.joblib
+`tfidf_vectorizer.joblib`
 
-run.bat
+`run.bat`
 
 Change the path of the "Load_the_saved_model2.py" file inside run.bat to its current location on your system.
 
 
-### Run the file: run.bat
+### Run the file: `run.bat`
 
 And write a sonnet!
 
