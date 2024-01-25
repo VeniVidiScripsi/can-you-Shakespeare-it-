@@ -10,7 +10,7 @@ You need Python installed on your computer first
 
 Install the following packages (use the command line):
 
-`pip install scikit-learn pandas`
+    pip install scikit-learn pandas
 
 
 ### Download the following files:
