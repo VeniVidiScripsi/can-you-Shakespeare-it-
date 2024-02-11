@@ -35,7 +35,6 @@ if __name__ == "__main__":
     model, vectorizer = load_model_and_vectorizer()
 
     while True:
-        # Get user input
         user_input = input("Enter a sentence (or 'exit' to quit): ")
 
         # Check if the user wants to exit
@@ -45,8 +44,3 @@ if __name__ == "__main__":
 
         # Classify the input text
         classify_input_text(user_input, model, vectorizer)
-
-
-
-
-
