@@ -30,6 +30,7 @@ def clean_and_filter_csv(input_file, output_file, min_length=12):
 clean_and_filter_csv(r'E:\1.csv', 'output_cleaned_filtered.csv', min_length=12)
 
 
+
 """
 import csv
 import re
