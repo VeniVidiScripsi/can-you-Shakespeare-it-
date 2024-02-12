@@ -13,11 +13,11 @@ data = pd.read_csv(r'E:\1.csv')
 X = data['text']
 y = data['label']
 
-# Split the data into training and testing sets
+# Split the data into training and testing sets ===> Don't ask why these numbers...
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Create a TF-IDF vectorizer
-vectorizer = TfidfVectorizer(lowercase=True, strip_accents='ascii', stop_words='english')
+# Create a TF-IDF vectorizer    
+vectorizer = TfidfVectorizer(lowercase=True, strip_accents='ascii', stop_words='english') # !! why not utf-8? !!
 
 # Fit and transform the training data with TF-IDF vectorizer
 X_train_tfidf = vectorizer.fit_transform(X_train)
