@@ -10,7 +10,7 @@ def clean_and_filter_csv(input_file, output_file, min_length=12, unwanted_chars=
     clean_pattern = re.compile(unwanted_chars, re.VERBOSE)
 
     with open(input_file, 'r', newline='', encoding='utf-8') as csv_input, \
-         open(output_file, 'w', newline='', encoding='utf-8') as csv_output:
+        open(output_file, 'w', newline='', encoding='utf-8') as csv_output:
 
         reader = csv.reader(csv_input)
         writer = csv.writer(csv_output)
