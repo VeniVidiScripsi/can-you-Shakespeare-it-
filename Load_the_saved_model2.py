@@ -30,7 +30,7 @@ def classify_input_text(input_text, model, vectorizer):
 
 
 # Main interactive loop
-if __name__ == "__main__":
+def main():
     # Load the model and vectorizer
     model, vectorizer = load_model_and_vectorizer()
 
@@ -44,3 +44,6 @@ if __name__ == "__main__":
 
         # Classify the input text
         classify_input_text(user_input, model, vectorizer)
+        
+if __name__ == "__main__":
+    main()
